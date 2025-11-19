@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        .description {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .description h2 {
+            margin-bottom: 10px;
+        }
+
+        .description p {
+            line-height: 1.6;
+        }
+
+        .product-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .product-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Product Description -->
+        <div class="description">
+            <h2>Smart Wireless Headphones</h2>
+            <p>
+                Experience premium sound quality with our Smart Wireless Headphones.
+                Designed for comfort and clarity, these headphones provide deep bass,
+                crystal-clear vocals, and noise-cancellation features that keep you
+                focused on your music.  
+                <br><br>
+                With up to 30 hours of battery life and fast charging, they are the
+                perfect companion for travel, work, and workouts.
+            </p>
+        </div>
+
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="https://via.placeholder.com/300" alt="Product Image">
+        </div>
+    </div>
+
+</body>
+</html>
